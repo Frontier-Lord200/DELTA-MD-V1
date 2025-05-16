@@ -14,7 +14,7 @@
 
   <!-- GitHub Stats Badges with new color palette -->
   <p>
-    <img src="https://img.shields.io/github/forks/XdKing2/MALVIN-XD?style=flat&color=1E88E5&logo=github&logoColor=white&label=Forks" alt="GitHub Forks" />
+    <img src="https://img.shields.io/github/forks/Frontier-Lord200/DELTA-MD-V1?style=flat&color=1E88E5&logo=github&logoColor=white&label=Forks" alt="GitHub Forks" />
     <img src="https://img.shields.io/github/followers/XdKing2?style=flat&color=43A047&logo=github&logoColor=white&label=Followers" alt="GitHub Followers" />
     <img src="https://img.shields.io/github/last-commit/XdKing2/MALVIN-XD?style=flat&color=8E24AA&logo=git&logoColor=white&label=Last%20Commit" alt="Last Commit" />
     <img src="https://img.shields.io/github/repo-size/Frontier-Lord200/DELTA-MD-V1?style=flat&color=0097A7&logo=database&logoColor=white&label=Repo%20Size" alt="Repo Size" />
@@ -31,7 +31,7 @@
 
 # DELTA-MD-V1 Setup
 
-### 💎💠👑 Fork the Repository
+### 💎💠👑 Before you get started please Fork the Repository
 
 To start, fork this repository to your own GitHub account by clicking the button below:
 
@@ -69,13 +69,13 @@ To start, fork this repository to your own GitHub account by clicking the button
 </p>
 
 <p align="center" style="color:#777;font-size:13px;">
-  <img src="https://github.com/XdKing2/MALVIN-XD/blob/main/assets/warning.gif?raw=true" width="15" />
+  <img src="https://github.com/Frontier-Lord200/DELTA-MD-V1/blob/main/assets/warning.gif?raw=true" width="15" />
   <em>Having connection issues? Try using a VPN.</em>
 </p>
 
 
 <div align="center">
-  <img src="https://github.com/XdKing2/MALVIN-XD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
+  <img src="https://github.com/Frontier-Lord200/DELTA-MD-V1/blob/main/assets/techwave.gif?raw=true" width="80%"/>
 </div>
 
 <h2 align="center">🚀 Deployment Options</h2>
@@ -126,7 +126,7 @@ To start, fork this repository to your own GitHub account by clicking the button
     </a>
   </p>
 
-  <img src="https://github.com/XdKing2/MALVIN-XD/blob/main/assets/techwave.gif?raw=true" width="100%" alt="Divider"/>
+  <img src="https://github.com/Frontier-Lord200/DELTA-MD-V1/blob/main/assets/techwave.gif?raw=true" width="100%" alt="Divider"/>
 </div>
 <p align="center">
   <img src="https://i.imgur.com/LyHic3i.gif" width="100%" />
@@ -136,16 +136,16 @@ To start, fork this repository to your own GitHub account by clicking the button
 
 > Get the latest bot zip file for panel deployment:
 
-[![Download ZIP](https://img.shields.io/badge/Download_MALVIN--XD-FF5722?style=flat-square&logo=github&logoColor=white)](https://github.com/FRONTIER-LORD200/DELTA-MD-V1/archive/refs/heads/main.zip)
+[![Download ZIP](https://img.shields.io/badge/Download_DELTA--MD-FF5722?style=flat-square&logo=github&logoColor=white)](https://github.com/FRONTIER-LORD200/DELTA-MD-V1/archive/refs/heads/main.zip)
 
 <p align="center">
   <img src="https://i.imgur.com/LyHic3i.gif" width="100%" />
 </p>
 
-### ⚠️ Disclaimer
+### ⚠️ Warning please note 🗒️ 
 
-- 🔒 This bot is **not affiliated with WhatsApp Inc.** Use it responsibly.  
-- 🚨 **Misuse may lead to account bans.**  
+- 📝 This bot is **not affiliated with WhatsApp Inc.** Use it responsibly.  
+- 🚨 **Misuse may lead to account bans so don't hold us responsible .**  
 - ❌ **Cloning or modifying the bot without permission is prohibited.**
 
 ---
@@ -178,7 +178,7 @@ To start, fork this repository to your own GitHub account by clicking the button
 > **Power up your dev journey – don’t miss updates, guides, or new commands!**
 
 - **▶️ YouTube: DELTATECH** – Watch tutorials, pro tricks, and setup walkthroughs  
-  [![YouTube Channel](https://img.shields.io/badge/Subscribe-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@IMPACTMD)
+  [![YouTube Channel](https://img.shields.io/badge/Subscribe-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@impactmd-w6q?si=ysz9MjOnmQUa4C9e)
 
 ---
 
