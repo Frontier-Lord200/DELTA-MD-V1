@@ -1,6 +1,6 @@
 var commands = [];
 
-function delta(info, func) {
+function malvin(info, func) {
     var data = info;
     data.function = func;
     if (!data.dontAddCommandList) data.dontAddCommandList = false;
@@ -12,9 +12,9 @@ function delta(info, func) {
     return data;
 }
 module.exports = {
-    delta,
-    AddCommand:delta,
-    Function:delta,
-    Module:delta,
+    malvin,
+    AddCommand:malvin,
+    Function:malvin,
+    Module:malvin,
     commands,
 };
