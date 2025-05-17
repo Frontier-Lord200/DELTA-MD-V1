@@ -153,7 +153,7 @@ To start, fork this repository to your own GitHub account by clicking the button
 ## 🗃️ PROJECT ARCHITECTS
 
 <p align="center">
-  <a href="https://github.com/FRONTIER-LORD200">
+  <a href="https://github.com/XdKing2">
     <img src="https://github-readme-stats.vercel.app/api?username=FRONTIER-LORD200&show_icons=true&theme=radical">
   </a>
 </p>
