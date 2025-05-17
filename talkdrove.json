@@ -1,0 +1,50 @@
+{
+  "bot-name": "DELTA-MD-V1",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ USMAN & Frontier",
+  "logo": "https://files.catbox.moe/2rvshj.jpg",
+  "keywords": ["bot"],
+  "documentation-link": "https://new-session-m3jx.onrender.com/",
+    "owner-verification":"Sirfrontire3@gmail.com",
+  
+  "env": {
+    "SESSION_ID": {
+      "description": "Must Start with 'malvin~'",
+      "required": true,
+      "value": ""
+    },
+      "BOT_NAME": {
+        "description": "write here your bot name.",
+        "required": true,
+        "value": "〠 DELTA-MD-V1 〠"      
+    },  
+    "MODE": {
+      "description": "Set private/public/inbox/groups",
+      "required": false,
+      "value": "public"
+     },
+   
+    "PREFIX": {
+      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
+      "required": true,
+      "value": "."
+    },
+    
+    "OWNER_NAME": {
+      "description": "Put Owner Name Here",
+      "required": true,
+      "value": "Frontier"
+    },
+    "OWNER_NUMBER": {
+      "description": "Put only one Owner Number Here",
+      "required": true,
+      "value": "263788521064"
+    },
+    
+    "PRESENCE": {
+      "description": "Put online/typing/recording/unavailable",
+      "required": true,
+      "value": "online"
+
+    }
+  }
+}
