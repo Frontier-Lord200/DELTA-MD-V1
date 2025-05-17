@@ -3,7 +3,7 @@
 //---------------------------------------------------------------------------
 //  ⚠️ DO NOT MODIFY THIS FILE ⚠️  
 //---------------------------------------------------------------------------
-const { malvin, commands } = require('../malvim');
+const { malvin, commands } = require('../malvin');
 const config = require('../settings');
 const prefix = config.PREFIX;
 const fs = require('fs');

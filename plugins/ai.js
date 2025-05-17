@@ -90,7 +90,7 @@ Please report this issue or try again later.
         return reply(errorMessage);
     }
 });
-delta({
+malvin({
     pattern: "llama3",
     desc: "Get a response from Llama3 AI using the provided prompt.",
     category: "ai",

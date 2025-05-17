@@ -2,7 +2,7 @@ const axios = require('axios');
 const os = require('os');
 const fs = require('fs');
 const path = require('path');
-const { malvin, commands } = require('../delta');
+const { malvin, commands } = require('../malvin');
 const { runtime } = require('../lib/functions');
 
 malvin({
