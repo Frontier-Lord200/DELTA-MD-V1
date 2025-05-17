@@ -1,4 +1,4 @@
-const { malvin } = require("../delta");
+const { malvin } = require("../malvin");
 const config = require("../settings");
 const moment = require("moment");
 
@@ -58,7 +58,7 @@ malvin({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363398430045533@newsletter',
-                    newsletterName: 'DELTA 𝐀𝐋𝐈𝐕𝐄',
+                    newsletterName: '𝐌𝐀𝐋𝐕𝐈𝐍 𝐀𝐋𝐈𝐕𝐄',
                     serverMessageId: 143
                 }
             }
