@@ -1,4 +1,4 @@
-const { malvin } = require('../delta');
+const { malvin } = require('../malvin');
 const config = require("../settings");
 
 // Anti-Bad Words System
