@@ -7,8 +7,8 @@ import sys
 import uuid
 from datetime import datetime
 
-# Get the backend URL from the frontend .env file
-BACKEND_URL = "https://51773a74-df7a-4568-9c66-1d45a9063559.preview.emergentagent.com"
+# Use localhost for testing
+BACKEND_URL = "http://localhost:8001"
 API_URL = f"{BACKEND_URL}/api"
 
 class BackendAPITest(unittest.TestCase):
