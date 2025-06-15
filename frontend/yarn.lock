@@ -3889,6 +3889,11 @@ electron-to-chromium@^1.5.73:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.76.tgz#db20295c5061b68f07c8ea4dfcbd701485d94a3d"
   integrity sha512-CjVQyG7n7Sr+eBXE86HIulnL5N8xZY1sgmOPGuq/F0Rr0FJq63lg0kEtOIDfZBk44FnDLf6FUJ+dsJcuiUDdDQ==
 
+emailjs-com@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/emailjs-com/-/emailjs-com-3.2.0.tgz#a53cb22f1bc433c701c84c53d8b56eefd5ce7111"
+  integrity sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA==
+
 emittery@^0.10.2:
   version "0.10.2"
   resolved "https://registry.yarnpkg.com/emittery/-/emittery-0.10.2.tgz#902eec8aedb8c41938c46e9385e9db7e03182933"
