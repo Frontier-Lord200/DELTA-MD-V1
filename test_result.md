@@ -149,6 +149,18 @@ backend:
       - working: true
         agent: "testing"
         comment: "Successfully tested GET /api/analytics endpoint after fixing a date calculation issue. The endpoint now correctly returns total_messages, new_messages, recent_messages, and timestamp."
+        
+  - task: "Health check endpoint"
+    implemented: true
+    working: true
+    file: "/app/backend/server.py"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "Successfully tested GET /api/health endpoint. The endpoint returns a status of 'healthy' and a timestamp."
 
 frontend:
   - task: "Multi-page navigation with React Router"
