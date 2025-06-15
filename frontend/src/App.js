@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
-import emailjs from 'emailjs-com';
+import axios from 'axios';
 import './App.css';
 
-// Initialize EmailJS
-emailjs.init("YOUR_PUBLIC_KEY"); // Will be replaced with actual key
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const API = `${BACKEND_URL}/api`;
 
 const Navigation = () => {
   return (
