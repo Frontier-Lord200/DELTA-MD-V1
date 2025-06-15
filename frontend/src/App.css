@@ -1,38 +1,237 @@
 .App {
-    text-align: center;
+  text-align: center;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Custom Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc2626;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b91c1c;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom hover effects */
+.hover\:shadow-3xl:hover {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Navigation backdrop blur */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+}
+
+/* Red glow effect for hover states */
+.hover\:glow-red:hover {
+  box-shadow: 0 0 20px rgba(220, 38, 38, 0.5);
+}
+
+/* Video container styling */
+video {
+  object-fit: cover;
+}
+
+/* Form input focus effects */
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+}
+
+/* Button press animation */
+button:active {
+  transform: scale(0.98);
+}
+
+/* Card hover animations */
+.service-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Background parallax effect */
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .bg-fixed {
+    background-attachment: scroll;
+  }
+}
+
+/* Text gradient effect */
+.text-gradient {
+  background: linear-gradient(135deg, #dc2626, #ef4444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Loading spinner */
+.spinner {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #dc2626;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Custom link hover effects */
+a {
+  transition: all 0.3s ease;
+}
+
+/* Hero section text effects */
+.hero-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Service grid responsive */
+@media (max-width: 640px) {
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+/* Custom button styles */
+.btn-primary {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #b91c1c, #991b1b);
+  box-shadow: 0 10px 20px rgba(220, 38, 38, 0.3);
+}
+
+/* Contact form styling */
+.contact-form {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+/* Success message animation */
+.success-message {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile navigation */
+@media (max-width: 768px) {
+  .mobile-nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+  }
 }
 
-.App-link {
-    color: #61dafb;
+/* Image hover effects */
+img {
+  transition: transform 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+/* Footer styling (if needed) */
+.footer {
+  background: linear-gradient(135deg, #1f2937, #111827);
+}
+
+/* Section dividers */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #dc2626, transparent);
+  margin: 2rem 0;
+}
+
+/* Typography enhancements */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.025em;
+}
+
+/* Custom focus visible styles */
+*:focus-visible {
+  outline: 2px solid #dc2626;
+  outline-offset: 2px;
+}
+
+/* Dark mode support (if needed in future) */
+@media (prefers-color-scheme: dark) {
+  /* Dark mode styles can be added here */
 }
