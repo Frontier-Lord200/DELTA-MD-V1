@@ -255,7 +255,6 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Contact form API endpoint" 
     - "Multi-page navigation with React Router"
     - "Homepage with hero section and background image"
     - "Services page with 5 services and images"
