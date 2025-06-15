@@ -251,23 +251,21 @@ const ContactPage = () => {
     setIsSubmitting(true);
     
     try {
-      // Replace with actual EmailJS service details
-      await emailjs.send(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
-        {
-          to_email: 'sirfrontier3@gmail.com',
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message,
-        },
-        'YOUR_PUBLIC_KEY'
-      );
+      // Send contact form data to our backend
+      const response = await axios.post(`${API}/contact`, {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message
+      });
       
-      setSubmitStatus('success');
-      navigate('/thank-you');
+      if (response.status === 200) {
+        setSubmitStatus('success');
+        navigate('/thank-you');
+      } else {
+        throw new Error('Failed to submit form');
+      }
     } catch (error) {
-      console.error('Email send failed:', error);
+      console.error('Form submission failed:', error);
       setSubmitStatus('error');
     }
     
