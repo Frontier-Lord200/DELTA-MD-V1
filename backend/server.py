@@ -181,7 +181,8 @@ async def get_basic_analytics():
         new_messages = await db.contact_messages.count_documents({"status": "new"})
         
         # Get messages from last 30 days
-        thirty_days_ago = datetime.utcnow() - datetime.timedelta(days=30)
+        from datetime import timedelta
+        thirty_days_ago = datetime.utcnow() - timedelta(days=30)
         recent_messages = await db.contact_messages.count_documents({
             "timestamp": {"$gte": thirty_days_ago}
         })
